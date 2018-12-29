@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Speech Synthesis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <a href="https://github.com/chiubeta/speechSynthesis" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+        <div class="container">
+            <h1>Speech Synthesis</h1>
+            <hr>
+            <p>Choose a language, clicking how many digits you need, then SPEAK!</p>
+            <select id="langSelect" class="custom-select w-50"></select>
+
+            <br>
+            <br>
+
+            <div id="digits" class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary active">
+                    <input type="checkbox" checked autocomplete="off">
+                    <span>X</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary active">
+                    <input type="checkbox" checked autocomplete="off">
+                    <span>X</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="checkbox" autocomplete="off">
+                    <span>0</span>
+                </label>
+            </div>
+            <br>
+            <span id="dispDigits"></span>
+            <br>
+            <button id="speak" type="button" class="btn btn-primary">SPEAK!</button>
+            <button id="repeat" type="button" class="btn btn-primary disabled">Repeat!</button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
