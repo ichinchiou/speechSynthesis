@@ -9,7 +9,7 @@
 2. Click how many digits you need 
 3. SPEAK!
 
-![](header.jpg)
+![](operation.gif)
 
 ## Meta
 
