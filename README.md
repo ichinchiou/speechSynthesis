@@ -3,8 +3,6 @@
 
 [![Build Status][travis-image]][travis-url]
 
-[Live Demo](https://rollingseal.com/demo/speechSynthesis/index.html)
-
 1. Choose a language
 2. Click how many digits you need 
 3. SPEAK!
@@ -13,13 +11,13 @@
 
 ## Meta
 
-Yichin Chiu – [website](https://rollingseal.com) – chiubeta@gmail.com
+Yichin Chiu – ichinchiou@gmail.com
 
 MIT license
 
 ## Contributing
 
-1. Fork it (<https://github.com/chiubeta/speechSynthesis/fork>)
+1. Fork it (<https://github.com/ichinchiou/speechSynthesis/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
